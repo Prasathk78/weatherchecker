@@ -1,0 +1,72 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+/* Default Background */
+
+
+.default-background {
+    background: url('/public/default_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Specific Weather Backgrounds */
+  .sunny {
+    background: url('../public/sunny.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .rainy {
+    background: url('/public/rainy.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .overcast {
+    background: url('/public/cloudy.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .partly-cloudy {
+    background: url('/public/partly-cloudy.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  .snowy {
+    background: url('/public/snow.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .mist {
+    background: url('/public/mist.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+/*for night*/
+  .clear-night {
+    background: url('/public/nightimage.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .partly-cloudy-night {
+    background: url('/public/partlynight.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .cloudy-night {
+    background: url('/public/partlynight.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .rainy-night {
+    background: url('/public/rainynight.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .snowy-night {
+    background: url('/public/snownight.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .mist-night {
+    background: url('/public/mist.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  .night {
+    background: url('/public/nightimage.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  

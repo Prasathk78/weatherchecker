@@ -1,0 +1,56 @@
+/* Default background */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Default background (shown before city is entered) */
+body.default-background {
+  background-image: url('/public/backgroundimage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  transition: background 0.5s ease-in-out; /* Smooth transition */
+}
+
+
+
+
+
+/* Sunny/clear weather */
+body.sunny {
+  background-image: url('/public/sunny.jpg'); 
+}
+
+/* Rainy weather */
+body.rainy {
+  background-image: url('/public/rainy.jpg'); 
+}
+
+/* Cloudy weather */
+body.cloudy {
+  background-image: url('/public/cloudy.jpg'); 
+}
+
+/* Snowy weather */
+body.snowy {
+  background-image: url('/public/snow.jpg'); 
+}
+
+/* Night background */
+body.night {
+  background-image: url('/public/default_background.jpg'); 
+}
+
+/* OverCaste background
+body.overcast {
+  background-image: url('/public/cloudy.jpg');
+} */
